@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-15T17:47:12 PST" name="Default suite" finished-at="2023-02-15T17:47:50 PST" duration-ms="38595">
+    <groups>
+    </groups>
+    <test started-at="2023-02-15T17:47:12 PST" name="Default test" finished-at="2023-02-15T17:47:50 PST" duration-ms="38595">
+      <class name="com.jbk.dataprovider.DataProviderWithExcelSheet">
+        <test-method is-config="true" signature="configSetting()[pri:0, instance:com.jbk.dataprovider.DataProviderWithExcelSheet@33990a0c]" started-at="2023-02-15T17:47:13 PST" name="configSetting" finished-at="2023-02-15T17:47:22 PST" duration-ms="9171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configSetting -->
+        <test-method signature="LoginTestCase(java.lang.String,java.lang.String)[pri:0, instance:com.jbk.dataprovider.DataProviderWithExcelSheet@33990a0c]" started-at="2023-02-15T17:47:22 PST" name="LoginTestCase" data-provider="logintestdata" finished-at="2023-02-15T17:47:25 PST" duration-ms="2681" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sumit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestCase -->
+        <test-method is-config="true" signature="configSetting()[pri:0, instance:com.jbk.dataprovider.DataProviderWithExcelSheet@33990a0c]" started-at="2023-02-15T17:47:25 PST" name="configSetting" finished-at="2023-02-15T17:47:33 PST" duration-ms="7737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configSetting -->
+        <test-method signature="LoginTestCase(java.lang.String,java.lang.String)[pri:0, instance:com.jbk.dataprovider.DataProviderWithExcelSheet@33990a0c]" started-at="2023-02-15T17:47:33 PST" name="LoginTestCase" data-provider="logintestdata" finished-at="2023-02-15T17:47:35 PST" duration-ms="2601" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Spruha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dcb@456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestCase -->
+        <test-method is-config="true" signature="configSetting()[pri:0, instance:com.jbk.dataprovider.DataProviderWithExcelSheet@33990a0c]" started-at="2023-02-15T17:47:35 PST" name="configSetting" finished-at="2023-02-15T17:47:48 PST" duration-ms="12479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configSetting -->
+        <test-method signature="LoginTestCase(java.lang.String,java.lang.String)[pri:0, instance:com.jbk.dataprovider.DataProviderWithExcelSheet@33990a0c]" started-at="2023-02-15T17:47:48 PST" name="LoginTestCase" data-provider="logintestdata" finished-at="2023-02-15T17:47:50 PST" duration-ms="2792" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kiran]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd@789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestCase -->
+      </class> <!-- com.jbk.dataprovider.DataProviderWithExcelSheet -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
