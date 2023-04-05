@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\HP\AppData\Local\Temp\testng-eclipse-430010217\testng-customsuite.xml</span>
+                    <span>C:\Users\HP\AppData\Local\Temp\testng-eclipse-1936249402\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +102,17 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="restAssured.JiraAPIsAutomation" class="method navigator-link" hash-for-method="deletComment2">deletComment2</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="restAssured.HttpMethod" class="method navigator-link" hash-for-method="getMethod">getMethod</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="restAssured.HttpMethod" class="method navigator-link" hash-for-method="postMehtod">postMehtod</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="restAssured.HttpMethod" class="method navigator-link" hash-for-method="putMehtod">putMehtod</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -120,14 +130,28 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">restAssured.JiraAPIsAutomation</span>
+              <span class="class-name">restAssured.HttpMethod</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="deletComment2">
-                  </a> <!-- deletComment2 -->
-                  <span class="method-name">deletComment2</span>
+                  <a name="getMethod">
+                  </a> <!-- getMethod -->
+                  <span class="method-name">getMethod</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="postMehtod">
+                  </a> <!-- postMehtod -->
+                  <span class="method-name">postMehtod</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="putMehtod">
+                  </a> <!-- putMehtod -->
+                  <span class="method-name">putMehtod</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -135,7 +159,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\HP\AppData\Local\Temp\testng-eclipse-430010217\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\HP\AppData\Local\Temp\testng-eclipse-1936249402\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -144,11 +168,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;restAssured.JiraAPIsAutomation&quot;&gt;
-        &lt;methods&gt;
-          &lt;include name=&quot;deletComment2&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- restAssured.JiraAPIsAutomation --&gt;
+      &lt;class name=&quot;restAssured.HttpMethod&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -188,16 +208,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'deletComment2')
-data.setCell(0, 2, 'restAssured.JiraAPIsAutomation')
-data.setCell(0, 3, 3734);
+data.setCell(0, 1, 'getMethod')
+data.setCell(0, 2, 'restAssured.HttpMethod')
+data.setCell(0, 3, 8392);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'postMehtod')
+data.setCell(1, 2, 'restAssured.HttpMethod')
+data.setCell(1, 3, 1562);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'putMehtod')
+data.setCell(2, 2, 'restAssured.HttpMethod')
+data.setCell(2, 3, 1379);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <span class="suite-total-time">Total running time: 11 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -212,22 +240,9 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">4 ignored methods</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">restAssured.JiraAPIsAutomation</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">putComment2</span>
-                <br/>
-                <span class="ignored-method-name">getComment2</span>
-                <br/>
-                <span class="ignored-method-name">getComment</span>
-                <br/>
-                <span class="ignored-method-name">addComment</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Default_suite" class="panel">
@@ -236,10 +251,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">restAssured.JiraAPIsAutomation</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">restAssured.HttpMethod</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">deletComment2</span>
+                <span class="method-name">getMethod</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">postMehtod</span>
+                <span class="method-start">8429 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">putMehtod</span>
+                <span class="method-start">9994 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -6,6 +6,10 @@
       <class name="restAssured.JiraAPIsAutomation">
         <methods>
           <include name="deletComment2"/>
+          <include name="putComment2"/>
+          <include name="getComment2"/>
+          <include name="getComment"/>
+          <include name="addComment"/>
         </methods>
       </class> <!-- restAssured.JiraAPIsAutomation -->
     </classes>
