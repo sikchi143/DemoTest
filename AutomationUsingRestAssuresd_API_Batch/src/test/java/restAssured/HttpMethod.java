@@ -47,8 +47,6 @@ public class HttpMethod {
 	*/
 	
 	
-	
-	
 	@Test
 	public void postMehtod() 
 	{

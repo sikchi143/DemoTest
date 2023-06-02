@@ -5,8 +5,8 @@
     <classes>
       <class name="com.test.LoginTest">
         <methods>
-          <include name="VerifyWrongPassword"/>
           <include name="CorrectCred"/>
+          <include name="VerifyWrongGamilAndPassword"/>
         </methods>
       </class> <!-- com.test.LoginTest -->
     </classes>
